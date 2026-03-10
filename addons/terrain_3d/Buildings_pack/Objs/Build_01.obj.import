@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://boqu22dvwtq4j"
+path="res://.godot/imported/Build_01.obj-2b7bca9d9ae9974ecb0b4af24936b443.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Build_01.obj-2b7bca9d9ae9974ecb0b4af24936b443.mesh"]
+
+source_file="res://addons/terrain_3d/Buildings_pack/Objs/Build_01.obj"
+dest_files=["res://.godot/imported/Build_01.obj-2b7bca9d9ae9974ecb0b4af24936b443.mesh", "res://.godot/imported/Build_01.obj-2b7bca9d9ae9974ecb0b4af24936b443.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

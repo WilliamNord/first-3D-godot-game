@@ -1,0 +1,65 @@
+[gd_scene load_steps=14 format=3 uid="uid://dnjbwelkvi8v1"]
+
+[ext_resource type="ArrayMesh" uid="uid://vjhtaci7h8p2" path="res://addons/AssaultRifle_01.obj" id="1_qbfr3"]
+[ext_resource type="ArrayMesh" uid="uid://bcl63soni8qmq" path="res://addons/SniperRifle_01.obj" id="2_5nk4n"]
+[ext_resource type="ArrayMesh" uid="uid://6b77184y5vih" path="res://addons/Spillutvikling/OBJ/Shotgun_03.obj" id="3_6m3vq"]
+[ext_resource type="ArrayMesh" uid="uid://chm2j3kaby8q5" path="res://addons/Spillutvikling/OBJ/Shotgun_01.obj" id="4_2yaw6"]
+[ext_resource type="ArrayMesh" uid="uid://du1rj8k107unb" path="res://addons/Spillutvikling/OBJ/SubmachineGun_01.obj" id="5_tf1oe"]
+[ext_resource type="ArrayMesh" uid="uid://cowlpbin808u" path="res://addons/Spillutvikling/OBJ/SubmachineGun_02.obj" id="6_52is6"]
+[ext_resource type="ArrayMesh" uid="uid://t5wjlkuysw6t" path="res://addons/Spillutvikling/OBJ/SubmachineGun_03.obj" id="7_g6kds"]
+[ext_resource type="ArrayMesh" uid="uid://deupt702rttid" path="res://addons/Spillutvikling/OBJ/SubmachineGun_04.obj" id="8_cogd0"]
+[ext_resource type="ArrayMesh" uid="uid://cj5scvywqbvkk" path="res://addons/Spillutvikling/OBJ/SubmachineGun_05.obj" id="9_avy4x"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_678wq"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_un0oc"]
+albedo_color = Color(0.564706, 0.027451, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e8at1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6wdwe"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+
+[node name="AssaultRifle01" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0361775, 0.101729, 0.000250936)
+mesh = ExtResource("1_qbfr3")
+
+[node name="SniperRifle01" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.99604, 0.00079751, 1.35151)
+mesh = ExtResource("2_5nk4n")
+surface_material_override/0 = SubResource("StandardMaterial3D_678wq")
+surface_material_override/1 = SubResource("StandardMaterial3D_un0oc")
+surface_material_override/2 = SubResource("StandardMaterial3D_e8at1")
+surface_material_override/3 = SubResource("StandardMaterial3D_6wdwe")
+
+[node name="Shotgun03" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.92361, 0, 0.537508)
+mesh = ExtResource("3_6m3vq")
+
+[node name="Shotgun01" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.0310095, 0, 0.999519, 0, 1, 0, -0.999519, 0, -0.0310095, 6.74281, 0, 1.4046)
+mesh = ExtResource("4_2yaw6")
+
+[node name="SubmachineGun01" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.3668, 0, -2.13891)
+mesh = ExtResource("5_tf1oe")
+
+[node name="SubmachineGun02" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.2499, 0, -2.13891)
+mesh = ExtResource("6_52is6")
+
+[node name="SubmachineGun03" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.41458, 0, -2.13891)
+mesh = ExtResource("7_g6kds")
+
+[node name="SubmachineGun04" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.6566, 0, -2.13891)
+mesh = ExtResource("8_cogd0")
+
+[node name="SubmachineGun05" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.22, 0, -2.13891)
+mesh = ExtResource("9_avy4x")

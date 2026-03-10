@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c728o7h5deirn"
+path="res://.godot/imported/Build_05.obj-8bdc5949015c9e31e4b7658407060a56.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Build_05.obj-8bdc5949015c9e31e4b7658407060a56.mesh"]
+
+source_file="res://addons/Spillutvikling/Buildings_pack/Objs/Build_05.obj"
+dest_files=["res://.godot/imported/Build_05.obj-8bdc5949015c9e31e4b7658407060a56.mesh", "res://.godot/imported/Build_05.obj-8bdc5949015c9e31e4b7658407060a56.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://lmw6sgn0623q"
+path="res://.godot/imported/Build_04.obj-1da252fd5f021decd8f9a1f7247f615a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Build_04.obj-1da252fd5f021decd8f9a1f7247f615a.mesh"]
+
+source_file="res://addons/Spillutvikling/kenney_particle_pack/Buildings_pack/Objs/Build_04.obj"
+dest_files=["res://.godot/imported/Build_04.obj-1da252fd5f021decd8f9a1f7247f615a.mesh", "res://.godot/imported/Build_04.obj-1da252fd5f021decd8f9a1f7247f615a.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

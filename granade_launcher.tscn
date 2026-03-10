@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=3 uid="uid://bec0w11hrdlqo"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_0035a"]
+top_radius = 0.1
+bottom_radius = 0.1
+height = 0.8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_fjx0t"]
+top_radius = 0.25
+bottom_radius = 0.25
+height = 0.2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wsfi5"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_nuwgc"]
+material = SubResource("StandardMaterial3D_wsfi5")
+top_radius = 0.11
+bottom_radius = 0.1
+height = 0.21
+
+[node name="GrenadeLauncher" type="Node3D"]
+
+[node name="Barrel" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.190642, -1.05501)
+mesh = SubResource("CylinderMesh_0035a")
+
+[node name="ShellHolder" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.049456, -0.891749)
+mesh = SubResource("CylinderMesh_fjx0t")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ShellHolder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000321925, -0.00291061, -0.140458)
+mesh = SubResource("CylinderMesh_nuwgc")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="ShellHolder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.133247, -0.00291061, -0.00145502)
+mesh = SubResource("CylinderMesh_nuwgc")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="ShellHolder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.130317, -0.00291061, -0.00579976)
+mesh = SubResource("CylinderMesh_nuwgc")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="ShellHolder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000321925, -0.00291061, 0.12922)
+mesh = SubResource("CylinderMesh_nuwgc")
+
+[node name="Grenade_pos" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.184136, -1.49922)

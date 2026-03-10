@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dft5w0cnk2ku0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1we40"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_wlh6h"]
+material = SubResource("StandardMaterial3D_1we40")
+radius = 0.25
+height = 0.5
+
+[node name="Grapple-point" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_wlh6h")

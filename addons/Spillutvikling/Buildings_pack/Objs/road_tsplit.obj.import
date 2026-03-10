@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://duvgnmlyu8iip"
+path="res://.godot/imported/road_tsplit.obj-c01de21c27a39ef9ad918f6564398eec.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road_tsplit.obj-c01de21c27a39ef9ad918f6564398eec.mesh"]
+
+source_file="res://addons/Spillutvikling/Buildings_pack/Objs/road_tsplit.obj"
+dest_files=["res://.godot/imported/road_tsplit.obj-c01de21c27a39ef9ad918f6564398eec.mesh", "res://.godot/imported/road_tsplit.obj-c01de21c27a39ef9ad918f6564398eec.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
